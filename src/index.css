@@ -1,0 +1,38 @@
+html, body, :global(#root) {
+  height: 100%;
+  margin: 0;
+  background-color: #F5F5F9;
+  overflow: hidden;
+  font-family: 'PingFang SC','STHeitiSC-Light','Arial, Helvetica, sans-serif'
+}
+
+:global(.icon) {
+   width: 44px;
+   height: 44px;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+
+:global(.tab-active){
+  color: #1296db
+}
+:global(.icon-green){
+	color: #2db245 ;
+}
+
+:global(.am-modal.am-modal-android .am-modal-content .am-modal-body) {
+  padding-left: 0.48rem !important;
+  padding-right: 0.48rem !important;
+}
+
+ul,li{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+div{
+  box-sizing: border-box;
+}
+

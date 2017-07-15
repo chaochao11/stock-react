@@ -1,0 +1,44 @@
+.loginWrapper{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+.logoWrapper{
+	text-align: right;
+	padding-top: 40px;
+}
+.logo{
+	display: inline-block;
+	width: 220px;
+	height: 65px;
+	background: url('../../assets/images/logo.png') no-repeat;
+	background-size: 220px 65px;
+  @media(-webkit-min-device-pixel-ratio:3),(min-device-pixel-ratio:3){
+  	width: 270px;
+		height: 80px;
+		background: url('../../assets/images/logo.png') no-repeat;
+		background-size: 270px 80px;
+  }
+}
+
+:global(.am-list-content){
+	color: #666 !important;
+}
+
+.loginBth{
+	background-color: #2db245;
+	color: #fff;
+	height: 70px;
+	line-height: 70px;
+	font-size: 0.34rem;
+}
+
+.forget{
+	float: right;
+	margin-top: 20px;
+	color: #0099ff;
+	font-size: 25px;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}

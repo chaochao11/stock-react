@@ -1,0 +1,93 @@
+
+
+.filterWrapper{
+	width: 100%;
+	padding: 24px 15px;
+	background-color: #f5f7f8;
+	display: flex;
+	box-sizing: border-box;
+}
+.chooseWrapper{
+	flex: 1;
+	display: flex;
+	height: 30px;
+	border-right: 1px solid #ddd;
+	span{
+		flex: 1;
+		color: #333;
+		line-height: 30px;
+		text-align: center;
+		font-size: 24px;
+	}
+}
+
+.marginRight{
+	margin-right: 10px;
+}
+
+.customWrapper{
+	flex: 0 0 140px;
+	width: 140px;
+	height: 30px;
+	display: flex;
+	span{
+		flex: 1;
+		color: #333;
+		line-height: 30px;
+		text-align: center;
+		font-size: 24px;
+	}
+	/*
+	span{
+		flex: 1;
+		width: 100%;
+		height: 30px;
+		color: #333;
+		line-height: 33px;
+		text-align: center;
+		font-size: 24px;
+		position: relative;
+		svg{
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+	}*/
+}
+
+.active{
+	color: #2db245 !important;
+}
+
+.filterIcon{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	font-size: 30px;
+	color: #333;
+	right: 10px;
+	top: 2px;
+	fill:currentColor;
+}
+
+.submitbtn{
+	background-color: #2db245;
+	color: #fff;
+	height: 70px;
+	line-height: 70px;
+	font-size: 26px;
+}
+:global(.am-modal-body){
+	overflow: hidden !important;
+	width: 100%;
+}
+
+.filterItemWrapper{
+	:global(.am-list-item .am-list-line .am-list-content) {
+		flex: 0 0 150px;
+		width: 150px;
+	}
+	:global(.am-list-item .am-list-line .am-list-extra) {
+		flex: 1
+	}
+}
